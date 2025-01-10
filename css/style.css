@@ -326,6 +326,11 @@ p{
 }
 .webDevelopment{
    margin: 0px 150px;
+   font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #333333;
+    text-align: center;
 }
 .flip-card {
     perspective: 1000px;
@@ -346,8 +351,9 @@ p{
     width: 200px;
     height: 200px;
     backface-visibility: hidden;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   }
   .flip-card-front {
     background: #f8f9fa;
@@ -360,6 +366,13 @@ p{
   .sdlc p{
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  .sdlc_head{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
     color: #333333;
   }
