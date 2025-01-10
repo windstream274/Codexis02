@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #D0E8F5;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+}
+.navbar .dropdown-menu {
+    display: none;
+    position: absolute;
+    margin-top: 0;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    top: 100%; 
+    left: 0;
+    right: 0;
+}
+.navbar{
+    background-color: #c4e4f2;
+}
+
+.navbar .dropdown-menu {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.dropdown-item{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+}
+
+/* Banner */
+.nav-item{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 25px;
+    color: #2C373E;
+}
+nav.black {
+    background-color: rgb(0, 0, 0);
+    transition: 2s;
+    margin-bottom: 20px;
+}
+
+/* .navbar{
+    background-color: #C1E5F8;    
+} */
+.nav-link:hover{
+ color: rgb(0, 0, 0);
+}
+.btn{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #2C373E;
+    color:rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color: black;
+    color: #E5F7EA;
+}
+
+h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    color: #2C373E;
+}
+h5{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #2C373E;
+}
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #5A5151;
+}
+.digital_world{
+    width: 530px;
+}
+.vector{
+    background-image: url('../img/Vector2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.get_started{
+    font-size: 20px;
+    width: 190px;
+    height:48px;
+}
+.bgVector{
+    background-image: url('../img/Group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{width: 229px; height: 288px;}
+.explore h2{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #2C373E;
+    width: 322px;
+    height: 120px;
+}
+.explore p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #5A5151;
+    width: 478px;
+    height: auto;
+}
+.web{
+    margin-top:100px;
+}
+.card h5{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #2C373E;
+}
+.card p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #2C373E;
+    width: 175px;
+    height: auto;
+}
+.card:hover{
+    background-color: #F4E2E2;
+
+}
+.about{
+    width: auto;
+    height: 475px;
+    background-color: #E5F7EA;
+}
+.different h2{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #2C373E;
+    width: 402px;
+    height: auto;
+}
+.different p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #5A5151;
+    width: 510px;
+    height: auto;
+}
+.clients{
+    margin-top: 100px;
+}
+.clients h2{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #2C373E;
+}
+.clients p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #5A5151;
+}
+.profile{
+    width: 306px;
+    height: 244px;
+    background-color: white;
+}
+.profile p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #5A5151;
+    /* width: 221px; */
+}
+.profile h5{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #2C373E;
+}
+.whyChooseUs{
+    height: 138px;
+    background-color: #F4E2E2;
+    margin-bottom: 100px;
+}
+.reached h3{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 29px;
+    color: #2C373E;
+}
+.reached p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #5A5151;
+}
+.location h3{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: #5A5151;
+}
+.location p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #5A5151;
+}
+.contact{
+    height: auto;
+    background-color: white;
+}
+.social{
+    background-color: #2C373E;
+    width:52px;
+    height: 52px;
+}
+.social:hover{
+    background-color: #D0E8F5;
+}
+.social:hover svg path {
+    fill: black;
+}
+.logo{
+    width: 180px;
+    height: 40px;
+}
+.career{
+    height: 350px;
+    background-color: white;
+}
+.msg{
+    width: 500px;
+    
+}
+.careerText{
+    width: 444px;
+    height: 33px;
+}
+.services{
+    text-decoration: none;
+}
+.whatWeDo{
+    width: 241px;
+    height: 218px;
+    background-color: white;
+}
+.footer{
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer h5{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #2C373E;
+}
+.footer p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #333333;
+}
+
+.process{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 20px;
+}
+/* .process h5{
+    width: 160;
+} */
+.flip-card{
+    width: 200px;
+    height: 200px;
+  
+}
+.discovery h5{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    color: #333333;
+}
+.arrows .arrow1{
+    left: 274px;
+    
+}
+.arrows .arrow2{
+    left: 505px;
+    top: -25px;
+   
+}
+.arrows .arrow3{
+    left: 750px;    
+}
+.arrows .arrow4{
+    left: 980px;
+    top: -25px;
+}
+.responsive{
+    margin-top:80px ;
+}
+.steps{
+    background-color: #E5F7EA;
+    width: auto;
+}
+.tehnologies{
+    width: 169px;
+    height: 195px;
+    background-color: white;
+}
+.webDevelopment{
+   margin: 0px 150px;
+}
+.flip-card {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    backface-visibility: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .flip-card-front {
+    background: #f8f9fa;
+  }
+  .flip-card-back {
+    background: #3b8ce3;
+    color: #fff;
+    transform: rotateY(180deg);
+  }
+  .sdlc p{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+  }
