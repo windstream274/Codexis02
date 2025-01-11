@@ -464,3 +464,43 @@ p{
 .codexis{
     margin-top: 150px;
 }
+
+
+/* join now */
+
+  .form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 100px;
+    
+
+  
+  }
+  .btn-primary {
+    background-color: #007bff; 
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .whatWeDo{
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    margin-bottom: 100px;
+  }
+  .whatWeDo h5{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #333333;
+  }
+  .whatWeDo p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #5C5C5C;
+  }
+  .whatWeDo:hover{
+    background-color: #97c2f0;
+  }
