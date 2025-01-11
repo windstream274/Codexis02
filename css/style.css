@@ -380,10 +380,6 @@ p{
     font-size: 25px;
     color: #333333;
   }
-<<<<<<< HEAD
-
-  /* responsive */
-=======
 /* login page styling*/
 .wrapper{
     display: flex;
@@ -462,4 +458,4 @@ p{
     font-size: 16px;
     font-weight: 600;
   }
->>>>>>> 11fc58bb4efd0ecb8df13aaeacd19b20f5c0cf2d
+
