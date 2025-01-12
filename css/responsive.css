@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .line {
+      display: none;
+    }
+  }

@@ -300,7 +300,65 @@ p{
     font-size: 36px;
     color: #333333;
 }
-.arrows .arrow1{
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    max-width: 90%;
+  }
+
+  .feature {
+    text-align: center;
+    position: relative;
+    margin: 20px;
+  }
+
+  .feature-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .feature-circle i {
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  .feature-text {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: black;
+    font-size: 20px;
+    /* width: 167px; */
+  }
+
+  .line {
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    z-index: 1;
+    transform: translateY(-50%);
+  }
+
+  .line:before,
+  .line:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: translateY(-50%);
+  }
+
+/* .arrows .arrow1{
     left: 240px;
     
 }
@@ -315,7 +373,7 @@ p{
 .arrows .arrow4{
     left: 890px;
     top: -25px;
-}
+} */
 .responsive{
     margin-top:80px ;
 }
