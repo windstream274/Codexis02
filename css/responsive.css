@@ -1,3 +1,4 @@
+/* Why choose codexis */
 @media (max-width: 768px) {
     .features {
       flex-direction: column;
@@ -8,3 +9,20 @@
       display: none;
     }
   }
+
+/* 320 screens */
+@media (max-width: 320px)  {
+  h1{
+      font-size:40px ;
+      width: 300px;
+  }
+h5{
+  width: 300px;
+}
+p{
+width: 300px;
+}
+.homepage_image{
+  width: 300px;
+}
+}

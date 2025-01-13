@@ -30,6 +30,9 @@ body{
     font-style: normal;
     font-size: 12px;
 }
+.dropdown-item:hover{
+  background-color: rgb(189, 181, 181);
+}
 
 /* Banner */
 .nav-item{
@@ -83,9 +86,9 @@ p{
     font-size: 16px;
     color: #5A5151;
 }
-.digital_world{
+/* .digital_world{
     width: 530px;
-}
+} */
 .vector{
     background-image: url('../img/Vector2.png');
     background-repeat: no-repeat;
@@ -560,5 +563,5 @@ p{
     color: #5C5C5C;
   }
   .whatWeDo:hover{
-    background-color: #97c2f0;
+    background-color: #F4E2E2;
   }
