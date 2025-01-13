@@ -145,8 +145,8 @@ p{
 }
 .about{
     width: auto;
-    height: 475px;
-    background-color: #E5F7EA;
+    height: auto;
+    background-color: hsl(137, 53%, 93%);
 }
 .different h2{
     font-weight: 700;

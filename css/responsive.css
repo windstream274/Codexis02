@@ -12,17 +12,93 @@
 
 /* 320 screens */
 @media (max-width: 320px)  {
+  /* homepage */
   h1{
       font-size:40px ;
-      width: 300px;
+      width: auto;
   }
 h5{
-  width: 300px;
+  width:auto;
 }
 p{
-width: 300px;
+width:auto;
 }
 .homepage_image{
+  width: 250px;
+}
+
+/* Explore Our Services */
+.project-even {display: flex;flex-direction:column-reverse;
+}
+.explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+}
+.explore p{
+  width: auto;
+  font-size: 16px;
+}
+.web{
+  margin-top: 25px;
+}
+
+/* About us */
+.about{
+  display: flex;flex-direction:column-reverse;
+}
+.different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+}
+.different p{
+  width: auto;
+  font-size: 16px;
+}
+.about_image img{
   width: 300px;
 }
+/* Our Clients */
+.clients h2{
+  font-size: 40px;
+}
+.clients p{
+  width: auto;
+  font-size: 16px;
+}
+.profile{
+  margin-top: 10px;
+}
+.whyChooseUs{ display: flex;flex-direction:row-reverse;}
+.reached h3{
+
+  font-size: 20px;
+  text-align: center;
+}
+.reached p{
+  
+  font-size: 10px;
+  text-align: center;
+}
+.icon svg{
+  width: 18px;
+}
+.location h3{
+  font-size: 12px;
+}
+.location p{
+  font-size: 8px;
+}
+.social_media{
+  display: flex;flex-direction:column-reverse;
+}
+.social_image{
+  margin-top: 20px;
+  text-align: center;
+}
+/* .social_icon{
+  margin-right: 10px;
+} */
 }
