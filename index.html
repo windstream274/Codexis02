@@ -14,47 +14,49 @@
 <!-- Header -->
 <div class="banner">
   <nav class="navbar navbar-expand-lg py-3">
-      <div class="container">
-        <a href="/">
-          <img src="img/logo.png"/>
+    <div class="container">
+      <a href="/">
+        <img src="img/logo.png" alt="Logo" />
+      </a>
       
-          </a>
-          
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link rounded-5" aria-current="page" href="/">HOME</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  OUR SERVICES
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="webDev.html">WEB DEVELOPMENT</a></li>
-                <li><a class="dropdown-item" href="appDev.html">APP DEVELOPMENT</a></li>
-                <li><a class="dropdown-item" href="digital.html">DIGITAL MARKETING</a></li>
-                <li><a class="dropdown-item" href="consultation.html">CONSULTATION</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#about__section">ABOUT US</a></li>
-              <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="careerPage.html">CAREERS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#contact__section">CONTACT US</a>
-                </li>
-                <li class="login">
-                  <a type="button" class="btn btn-lg btn-dark" href="Login.html">LOG-IN</a>
-                </li>
-          </ul>
-        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link rounded-5" aria-current="page" href="/">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              OUR SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="webDev.html">WEB DEVELOPMENT</a></li>
+              <li><a class="dropdown-item" href="appDev.html">APP DEVELOPMENT</a></li>
+              <li><a class="dropdown-item" href="digital.html">DIGITAL MARKETING</a></li>
+              <li><a class="dropdown-item" href="consultation.html">CONSULTATION</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about__section">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="careerPage.html">CAREERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#contact__section">CONTACT US</a>
+          </li>
+          <li class="login">
+            <a type="button" class="btn btn-lg btn-dark" href="Login.html">LOG-IN</a>
+          </li>
+        </ul>
       </div>
-    </nav>
     </div>
+  </nav>
+</div>
+
 
 
 <!-- Banner -->
@@ -67,7 +69,7 @@
             <p class="mt-2 digital_world">Empowering Your Digital Journey: We specialize in creating innovative websites, cutting-edge apps, strategic digital marketing, and expert consultation. Let us transform your ideas into impactful digital solutions that drive growth and success.</p>
             <a type="button" class="get_started btn btn-lg btn-dark rounded-4" href="#started__section">Get Started</a>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 text-end">
             <img src="img/banner.png" alt="banner" class="homepage_image">
           </div>
         </div>  
@@ -81,7 +83,7 @@
         <div class="row py-5 project-even">
         <div class="col-12 col-md-6">
         <div class="row justify-content-end project-even">
-          <div class="web col-5">
+          <div class="web col-12 col-md-5">
             <a href="webDev.html" class="services">
          <div class="card rounded-4 align-items-center justify-content-center">
          
@@ -106,7 +108,7 @@
         </div>
         </a>
       </div>
-      <div class="col-5">
+      <div class="col-12 col-md-5">
         <a href="appDev.html" class="services">
 
         <div class="card rounded-4 align-items-center justify-content-center">

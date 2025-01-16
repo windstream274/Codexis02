@@ -1,17 +1,1762 @@
-/* Why choose codexis */
+ /* Why choose codexis */
 @media (max-width: 768px) {
-    .features {
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .line {
-      display: none;
-    }
+  .features {
+    flex-direction: column;
+    gap: 1rem;
   }
 
-/* 320 screens */
-@media (max-width: 320px)  {
+  .line {
+    display: none;
+  }
+}
+/* 1920px screens */
+@media (max-width: 1920px)  {  
+  /* Explore Our Services */
+  .web{
+  margin-top: 50px;
+  }
+  }
+/* 1400px screens */
+@media (max-width: 1400px)  {
+
+  .web{
+  margin-top: 50px;
+  }
+  /* Our Clients */
+  }
+/* 1300px screens */
+@media (max-width: 1300px)  {
+  .web{
+  margin-top: 50px;
+  }
+  }
+
+/* 1200px screens */
+@media (max-width: 1200px)  {
+  /* homepage */
+  /* h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  } */
+  .homepage_image{
+  width: 600px;
+  }
+  
+  /* Explore Our Services */
+  /* .project-even {
+    display: flex;flex-direction:column-reverse;
+        justify-content: center;
+  } */
+   /* .card{
+    width: 150px;
+    height: 200px;
+   } */
+   /* .card h5{
+    font-size: 10px;
+   }
+   .card p{
+    font-size: 8px;
+    padding: 15px;
+   } */
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 400px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  /* .whyChooseUs{ display: flex;flex-direction:row-reverse;} */
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  /* .icon svg{
+  width: 18px;
+  } */
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  /* .social{
+    width: 40px;
+    height: 40px;
+  } */
+  /* .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  } */
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:20px;
+  /* text-align: center; */
+  }
+  .process{
+    width: 150px;
+    height: 150px;
+  }
+  .flip-card {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    backface-visibility: hidden;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  }
+  .flip-card-front {
+    background: #f8f9fa;
+  }
+  .flip-card-back {
+    background: #3b8ce3;
+    color: #fff;
+    transform: rotateY(180deg);
+  }
+  .sdlc_head{
+    font-size: 15px;
+  }
+  /* .box{
+  margin-left: 500px;
+  }
+  .box1{
+  margin-left: 270px;
+  } */
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 990px screens */
+@media (max-width: 990px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 500px;
+  }
+  
+  /* Explore Our Services */
+  /* .project-even {
+    display: flex;flex-direction:column-reverse;
+        justify-content: center;
+  } */
+   .card{
+    width: 150px;
+    height: 200px;
+   }
+   .card h5{
+    font-size: 10px;
+   }
+   .card p{
+    font-size: 8px;
+    padding: 15px;
+   }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 400px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  /* .whyChooseUs{ display: flex;flex-direction:row-reverse;} */
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social{
+    width: 40px;
+    height: 40px;
+  }
+  /* .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  } */
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:20px;
+  /* text-align: center; */
+  }
+  .process{
+    width: 150px;
+    height: 150px;
+  }
+  .flip-card {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    backface-visibility: hidden;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  }
+  .flip-card-front {
+    background: #f8f9fa;
+  }
+  .flip-card-back {
+    background: #3b8ce3;
+    color: #fff;
+    transform: rotateY(180deg);
+  }
+  .sdlc_head{
+    font-size: 15px;
+  }
+  /* .box{
+  margin-left: 500px;
+  }
+  .box1{
+  margin-left: 270px;
+  } */
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 820 screens */
+@media (max-width: 820px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 380px;
+  }
+  
+  /* Explore Our Services */
+  /* .project-even {
+    display: flex;flex-direction:column-reverse;
+        justify-content: center;
+  } */
+   .card{
+    width: 150px;
+    height: 200px;
+   }
+   .card h5{
+    font-size: 10px;
+   }
+   .card p{
+    font-size: 8px;
+    padding: 15px;
+   }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social{
+    width: 40px;
+    height: 40px;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:20px;
+  /* text-align: center; */
+  }
+  .process{
+    width: 150px;
+    height: 150px;
+  }
+  .flip-card {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    backface-visibility: hidden;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  }
+  .flip-card-front {
+    background: #f8f9fa;
+  }
+  .flip-card-back {
+    background: #3b8ce3;
+    color: #fff;
+    transform: rotateY(180deg);
+  }
+  .sdlc_head{
+    font-size: 15px;
+  }
+  /* .box{
+  margin-left: 500px;
+  }
+  .box1{
+  margin-left: 270px;
+  } */
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 768 screens */
+@media (max-width: 768px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 380px;
+  }
+  
+  /* Explore Our Services */
+  /* .project-even {
+    display: flex;flex-direction:column-reverse;
+        justify-content: center;
+  } */
+   .card{
+    width: 150px;
+    height: 200px;
+   }
+   .card h5{
+    font-size: 10px;
+   }
+   .card p{
+    font-size: 8px;
+    padding: 15px;
+   }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social{
+    width: 40px;
+    height: 40px;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:20px;
+  /* text-align: center; */
+  }
+  .process{
+    width: 150px;
+    height: 150px;
+  }
+  .flip-card {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    backface-visibility: hidden;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  }
+  .flip-card-front {
+    background: #f8f9fa;
+  }
+  .flip-card-back {
+    background: #3b8ce3;
+    color: #fff;
+    transform: rotateY(180deg);
+  }
+  .sdlc_head{
+    font-size: 15px;
+  }
+  /* .box{
+  margin-left: 500px;
+  }
+  .box1{
+  margin-left: 270px;
+  } */
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+/* 720 screens */
+@media (max-width: 720px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 450px;
+  }
+  
+  /* Explore Our Services */
+  .project-even {display: flex;flex-direction:column-reverse;
+    align-content: center;
+  }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social_media{
+  display: flex;flex-direction:column-reverse;
+  }
+  .social_image{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:30px;
+  text-align: center;
+  }
+  .box{
+  margin-left: 500px;
+  }
+  .box1{
+  margin-left: 270px;
+  }
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 576 screens */
+@media (max-width: 576px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 450px;
+  }
+  
+  /* Explore Our Services */
+  .project-even {display: flex;flex-direction:column-reverse;
+    align-content: center;
+  }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social_media{
+  display: flex;flex-direction:column-reverse;
+  }
+  .social_image{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:30px;
+  text-align: center;
+  }
+  .box{
+  margin-left: 350px;
+  }
+  .box1{
+  margin-left: 200px;
+  
+  }
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 478 screens */
+@media (max-width: 478px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 250px;
+  }
+  
+  /* Explore Our Services */
+  .project-even {display: flex;flex-direction:column-reverse;
+  }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social_media{
+  display: flex;flex-direction:column-reverse;
+  }
+  .social_image{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:30px;
+  text-align: center;
+  }
+  .box{
+  margin-left: 250px;
+  }
+  .box1{
+  margin-left: 150px;
+  
+  }
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 412 screens */
+@media (max-width: 412px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 250px;
+  }
+  
+  /* Explore Our Services */
+  .project-even {display: flex;flex-direction:column-reverse;
+  }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social_media{
+  display: flex;flex-direction:column-reverse;
+  }
+  .social_image{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:30px;
+  text-align: center;
+  }
+  .box{
+  margin-left: 200px;
+  }
+  .box1{
+  margin-left: 110px;
+  
+  }
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 384 screens */
+@media (max-width: 384px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 250px;
+  }
+  
+  /* Explore Our Services */
+  .project-even {display: flex;flex-direction:column-reverse;
+  }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social_media{
+  display: flex;flex-direction:column-reverse;
+  }
+  .social_image{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:30px;
+  text-align: center;
+  }
+  .box{
+  margin-left: 180px;
+  }
+  .box1{
+  margin-left: 100px;
+  
+  }
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+
+/* 370 screens */
+@media (max-width: 370px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 250px;
+  }
+  
+  /* Explore Our Services */
+  .project-even {display: flex;flex-direction:column-reverse;
+  }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social_media{
+  display: flex;flex-direction:column-reverse;
+  }
+  .social_image{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:30px;
+  text-align: center;
+  }
+  .box{
+  margin-left: 160px;
+  }
+  .box1{
+  margin-left: 90px;
+  
+  }
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+/* 364 screens */
+@media (max-width: 364px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+  h5{
+  width:auto;
+  }
+  h2{
+  font-size:40px ;
+  }
+  p{
+  width:auto;
+  }
+  .homepage_image{
+  width: 250px;
+  }
+  
+  /* Explore Our Services */
+  .project-even {display: flex;flex-direction:column-reverse;
+  }
+  .explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+  }
+  .explore p{
+  width: auto;
+  font-size: 16px;
+  }
+  .web{
+  margin-top: 25px;
+  }
+  
+  /* About us */
+  .about{
+  display: flex;flex-direction:column-reverse;
+  }
+  .different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  }
+  .different p{
+  width: auto;
+  font-size: 16px;
+  }
+  .about_image img{
+  width: 300px;
+  }
+  /* Our Clients */
+  .clients h2{
+  font-size: 40px;
+  }
+  .clients p{
+  width: auto;
+  font-size: 16px;
+  }
+  .profile{
+  margin-top: 10px;
+  }
+  .whyChooseUs{ display: flex;flex-direction:row-reverse;}
+  .reached h3{
+  
+  font-size: 20px;
+  text-align: center;
+  }
+  .reached p{
+  
+  font-size: 10px;
+  text-align: center;
+  }
+  .icon svg{
+  width: 18px;
+  }
+  .location h3{
+  font-size: 12px;
+  }
+  .location p{
+  font-size: 8px;
+  }
+  .social_media{
+  display: flex;flex-direction:column-reverse;
+  }
+  .social_image{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .career1{
+  display: flex;flex-direction:column-reverse;
+  
+  }
+  .form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;  
+  }
+  /* web development */
+  .webDevelopment{
+  margin: 0px 20px;
+  }
+  .discovery h5{
+  font-size:30px;
+  text-align: center;
+  }
+  .box{
+  margin-left: 140px;
+  }
+  .box1{
+  margin-left: 70px;
+  
+  }
+  .codexis{
+  font-size: 30px;
+  }
+  .aboutPage h2{
+  font-size: 25px;
+  }
+  .Vision{
+  width: 300px;
+  }
+  }
+
+
+/* 360 screens */
+@media (max-width: 360px)  {
+/* homepage */
+h1{
+    font-size:40px ;
+    width: auto;
+}
+h5{
+width:auto;
+}
+h2{
+font-size:40px ;
+}
+p{
+width:auto;
+}
+.homepage_image{
+width: 250px;
+}
+
+/* Explore Our Services */
+.project-even {display: flex;flex-direction:column-reverse;
+}
+.explore h2{
+width: 300px;
+height: auto;
+font-size: 40px;
+
+}
+.explore p{
+width: auto;
+font-size: 16px;
+}
+.web{
+margin-top: 25px;
+}
+
+/* About us */
+.about{
+display: flex;flex-direction:column-reverse;
+}
+.different h2{
+width: 300px;
+height: auto;
+font-size: 40px;
+}
+.different p{
+width: auto;
+font-size: 16px;
+}
+.about_image img{
+width: 300px;
+}
+/* Our Clients */
+.clients h2{
+font-size: 40px;
+}
+.clients p{
+width: auto;
+font-size: 16px;
+}
+.profile{
+margin-top: 10px;
+}
+.whyChooseUs{ display: flex;flex-direction:row-reverse;}
+.reached h3{
+
+font-size: 20px;
+text-align: center;
+}
+.reached p{
+
+font-size: 10px;
+text-align: center;
+}
+.icon svg{
+width: 18px;
+}
+.location h3{
+font-size: 12px;
+}
+.location p{
+font-size: 8px;
+}
+.social_media{
+display: flex;flex-direction:column-reverse;
+}
+.social_image{
+margin-top: 20px;
+text-align: center;
+}
+.career1{
+display: flex;flex-direction:column-reverse;
+
+}
+.form-container {
+background-color: #fff;
+padding: 2rem;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin: 20px;  
+}
+/* web development */
+.webDevelopment{
+margin: 0px 20px;
+}
+.discovery h5{
+font-size:30px;
+text-align: center;
+}
+.box{
+margin-left: 160px;
+}
+.box1{
+margin-left: 80px;
+}
+.codexis{
+font-size: 30px;
+}
+.aboutPage h2{
+font-size: 25px;
+}
+.Vision{
+width: 300px;
+}
+}
+/* 344 screens */
+@media (max-width: 344px)  {
   /* homepage */
   h1{
       font-size:40px ;
@@ -19,6 +1764,9 @@
   }
 h5{
   width:auto;
+}
+h2{
+  font-size:40px ;
 }
 p{
 width:auto;
@@ -98,7 +1846,166 @@ width:auto;
   margin-top: 20px;
   text-align: center;
 }
-/* .social_icon{
-  margin-right: 10px;
-} */
+.career1{
+  display: flex;flex-direction:column-reverse;
+
+}
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin: 20px;  
+}
+/* web development */
+.webDevelopment{
+  margin: 0px 20px;
+}
+.discovery h5{
+  font-size:30px;
+  text-align: center;
+}
+.box{
+ margin-left: 140px;
+}
+.box1{
+  margin-left: 70px;
+  
+}
+.codexis{
+  font-size: 30px;
+}
+.aboutPage h2{
+  font-size: 25px;
+}
+.Vision{
+  width: 300px;
+}
+}
+
+/* 320 screens */
+@media (max-width: 320px)  {
+  /* homepage */
+  h1{
+      font-size:40px ;
+      width: auto;
+  }
+h5{
+  width:auto;
+}
+h2{
+  font-size:40px ;
+}
+p{
+width:auto;
+}
+.homepage_image{
+  width: 250px;
+}
+
+/* Explore Our Services */
+.project-even {display: flex;flex-direction:column-reverse;
+}
+.explore h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+  
+}
+.explore p{
+  width: auto;
+  font-size: 16px;
+}
+.web{
+  margin-top: 25px;
+}
+
+/* About us */
+.about{
+  display: flex;flex-direction:column-reverse;
+}
+.different h2{
+  width: 300px;
+  height: auto;
+  font-size: 40px;
+}
+.different p{
+  width: auto;
+  font-size: 16px;
+}
+.about_image img{
+  width: 300px;
+}
+/* Our Clients */
+.clients h2{
+  font-size: 40px;
+}
+.clients p{
+  width: auto;
+  font-size: 16px;
+}
+.profile{
+  margin-top: 10px;
+}
+.whyChooseUs{ display: flex;flex-direction:row-reverse;}
+.reached h3{
+
+  font-size: 20px;
+  text-align: center;
+}
+.reached p{
+  
+  font-size: 10px;
+  text-align: center;
+}
+.icon svg{
+  width: 18px;
+}
+.location h3{
+  font-size: 12px;
+}
+.location p{
+  font-size: 8px;
+}
+.social_media{
+  display: flex;flex-direction:column-reverse;
+}
+.social_image{
+  margin-top: 20px;
+  text-align: center;
+}
+.career1{
+  display: flex;flex-direction:column-reverse;
+
+}
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin: 20px;  
+}
+/* web development */
+.webDevelopment{
+  margin: 0px 20px;
+}
+.discovery h5{
+  font-size:30px;
+  text-align: center;
+}
+.box{
+ margin-left: 100px;
+}
+.box1{
+  margin-left: 60px;
+}
+.codexis{
+  font-size: 30px;
+}
+.aboutPage h2{
+  font-size: 25px;
+}
+.Vision{
+  width: 300px;
+}
 }
